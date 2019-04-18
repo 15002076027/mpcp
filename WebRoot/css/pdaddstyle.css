@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav>.row>.col-xs-2>img {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+/* ********** ********** ********** */
+#ctn-content>form>.row {
+    margin: 0 0 5% 0;
+}
+
+#ctn-content>form>.row>.col-xs-6>button {
+    width: 100%;
+}

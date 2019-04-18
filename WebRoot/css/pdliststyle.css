@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.navbar {
+    position: fixed;
+    z-index: 10;
+}
+
+nav>.row>.col-xs-7>form {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+nav>.row>.col-xs-7>form>input {
+    float: left;
+    width: 80%;
+}
+
+nav>.row>.col-xs-7>form>button {
+    position: relative;
+    float: left;
+    left: -2%;
+    width: 20%;
+}
+
+nav>.row>.col-xs-2>img {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+/* ********** ********** ********** */
+#ctn-list {
+    padding-top: 16%;
+}
+
+#ctn-list>.list-group>.row>.col-xs-5>img {
+    max-width: 360px;
+}
+
+/* ********** ********** ********** */
+#ctn-cp {
+    position: fixed;
+    top: 40%;
+    left: 5%;
+    width: 90%;
+    z-index: 10;
+    display: none;
+}
+
+#ctn-cp>.panel>.panel-heading {
+    padding: 2% 15px;
+}
+
+#ctn-cp>.panel>.panel-heading>h3 {
+    text-align: center;
+}
+
+#ctn-cp>.panel>.panel-body {
+    padding: 0%;
+}
+
+#ctn-cp>.panel>.panel-body>table {
+    margin-bottom: 0%;
+}
+
+#ctn-cp>.panel>.panel-footer {
+    padding: 2%;
+    text-align: center;
+}
+
+/* ********** ********** ********** */
+#ctn-alert {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    margin-left: -43px;
+    top: 50%;
+    margin-top: -26px;
+}

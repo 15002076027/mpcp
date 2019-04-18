@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ctn-header {
+    margin-top: 100px;
+    margin-bottom: 10%;
+}
+
+#ctn-header>h1 {
+    text-align: center;
+}
+
+#ctn-header>form {
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+#ctn-header>form>.input-group>input {
+    border-radius: 16px 0px 0px 16px;
+}
+
+#ctn-header>form>.input-group>span>button {
+    border-radius: 0px 16px 16px 0px;
+}
+
+#ctn-header>div>a {
+    display: inline-block;
+    margin: 0% 1% 0% 1%;
+}
+
+/* ********** ********** ********** */
+#ctn-content>.row>.col-xs-3 {
+    text-align: center;
+}
+
+#ctn-content>.row>.col-xs-3>* {
+    display: block;
+    margin-bottom: 10%;
+}
+
+/* ********** ********** ********** */
+#ctn-cp {
+    position: fixed;
+    top: 40%;
+    left: 5%;
+    width: 90%;
+    z-index: 10;
+    display: none;
+}
+
+#ctn-cp>.panel>.panel-heading {
+    padding: 2% 15px;
+}
+
+#ctn-cp>.panel>.panel-heading>h3 {
+    text-align: center;
+}
+
+#ctn-cp>.panel>.panel-body {
+    padding: 0%;
+}
+
+#ctn-cp>.panel>.panel-body>table {
+    margin-bottom: 0%;
+}
+
+#ctn-cp>.panel>.panel-footer {
+    padding: 2%;
+    text-align: center;
+}

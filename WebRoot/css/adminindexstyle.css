@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav>.row>.col-xs-2>img {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+/* ********** ********** ********** */
+#ctn-content .panel-body {
+    padding: 0;
+}
+
+#ctn-content table {
+    margin-bottom: 0;
+}
